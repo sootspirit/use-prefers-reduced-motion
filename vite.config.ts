@@ -19,5 +19,15 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/lib/main.ts'),
       formats: ['es'],
     },
+    rolldownOptions: {
+      external: ['react', 'react-dom', 'react/jsx-runtime'],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+          'react/jsx-runtime': 'jsxRuntime',
+        },
+      },
+    },
   },
 });

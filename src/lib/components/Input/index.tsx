@@ -1,3 +1,5 @@
+import './styles.scss';
+
 type InputVariant = 'filled' | 'outlined';
 
 interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {

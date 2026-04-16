@@ -1,3 +1,5 @@
+import './styles.scss';
+
 export function Button(props: React.ButtonHTMLAttributes<HTMLButtonElement>) {
   const { className, ...restProps } = props;
   console.log('Button! HA');

@@ -16,7 +16,7 @@
     "preview": "vite preview",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
@@ -32,6 +32,8 @@
     "glob": "^13.0.6",
     "globals": "^17.4.0",
     "prettier": "^3.8.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "sass-embedded": "^1.99.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.0",

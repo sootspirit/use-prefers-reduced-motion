@@ -16,6 +16,9 @@
     "preview": "vite preview",
     "prepublishOnly": "npm run build"
   },
+  "sideEffects": [
+    "**/*.css"
+  ],
   "peerDependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4"

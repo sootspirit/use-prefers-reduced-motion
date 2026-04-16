@@ -6,9 +6,10 @@ npm create vite@latest
 
 2. Immediataly commit the blank project to seperate vite code from mine
 3. Add .nvmrc with Node version and commit it
-4. divide src to demo and lib file. Demo is for testing components.
-5. vite library mode: vite.config.ts, add tsconfig.lib.json, update build script & and prepublish script in package.json, update tsconfig.app.json
-6. Building types. We need to use a library unplugin-dts:
+4. Install prettier `nom i -D prettier` and add .prettierrc
+5. divide src to demo and lib file. Demo is for testing components.
+6. vite library mode: vite.config.ts, add tsconfig.lib.json, update build script & and prepublish script in package.json, update tsconfig.app.json
+7. Building types. We need to use a library unplugin-dts:
    - `npm i -D unplugin-dts`
      in vite.config.ts:
      `import dts from "unplugin-dts/vite";`
@@ -23,7 +24,11 @@ npm create vite@latest
      }),
      ],
      ```
-7. Add some test components and in vite.config.js add rollupOptions with external and output.global
+8. Add some test components and in vite.config.js add rollupOptions with external and output.global
+9. add some styles - SCSS `npm i -D sass-embedded`, no CSS modules, vite-plugin-lib-inject-css:
+   The libInjectCSS plugin generates a separate CSS file for each chunk and includes an import statement at the beginning of each chunk's output file.
+   - create modules in vite.config.ts - rollupOptions.input
+   - change entryFileNames in vite-config to preserve files names
 
 # React + TypeScript + Vite
 

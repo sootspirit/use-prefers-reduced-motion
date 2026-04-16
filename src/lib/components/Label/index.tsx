@@ -1,3 +1,5 @@
+import './styles.scss';
+
 export function Label(props: React.LabelHTMLAttributes<HTMLLabelElement>) {
   const { className, ...restProps } = props;
   console.log('Label!');

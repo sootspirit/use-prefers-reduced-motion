@@ -29,6 +29,9 @@ npm create vite@latest
    The libInjectCSS plugin generates a separate CSS file for each chunk and includes an import statement at the beginning of each chunk's output file.
    - create modules in vite.config.ts - rollupOptions.input
    - change entryFileNames in vite-config to preserve files names
+10. update package.json (see commits)
+
+[https://dev.to/receter/how-to-create-a-react-component-library-using-vites-library-mode-4lma](https://dev.to/receter/how-to-create-a-react-component-library-using-vites-library-mode-4lma)
 
 # React + TypeScript + Vite
 

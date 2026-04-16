@@ -6,6 +6,23 @@ npm create vite@latest
 
 2. Immediataly commit the blank project to seperate vite code from mine
 3. Add .nvmrc with Node version and commit it
+4. divide src to demo and lib file. Demo is for testing components.
+5. vite library mode: vite.config.ts, add tsconfig.lib.json, update build script & and prepublish script in package.json, update tsconfig.app.json
+6. Building types. We need to use a library unplugin-dts:
+   - `npm i -D unplugin-dts`
+     in vite.config.ts:
+     `import dts from "unplugin-dts/vite";`
+     ```
+     plugins: [
+     react(),
+     dts({
+     include: ["src/lib"],
+     tsconfigPath: "./tsconfig.lib.json",
+     insertTypesEntry: true,
+     copyDtsFiles: true,
+     }),
+     ],
+     ```
 
 # React + TypeScript + Vite
 

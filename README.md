@@ -35,9 +35,8 @@ npm create vite@latest
 
 TODO:
 
-1. dodać helpers
-2. dodać global styles
-3. przetestować - zaimportować componenty do innego projektu - consumera
+1. dodać global styles
+2. przetestować - zaimportować componenty do innego projektu - consumera
 
 # React + TypeScript + Vite
 

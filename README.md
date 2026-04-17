@@ -33,6 +33,12 @@ npm create vite@latest
 
 [https://dev.to/receter/how-to-create-a-react-component-library-using-vites-library-mode-4lma](https://dev.to/receter/how-to-create-a-react-component-library-using-vites-library-mode-4lma)
 
+TODO:
+
+1. dodać helpers
+2. dodać global styles
+3. przetestować - zaimportować componenty do innego projektu - consumera
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

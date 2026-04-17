@@ -1,0 +1,17 @@
+@use './variables';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  // Reserve the space for scrollbar in pages where is no needed to avoid shifting content
+  scrollbar-gutter: stable;
+}
+
+body {
+  // like min-height but 'modern'
+  min-block-size: 100svh;
+}

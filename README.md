@@ -35,8 +35,11 @@ npm create vite@latest
 
 TODO:
 
-1. dodać global styles
-2. przetestować - zaimportować componenty do innego projektu - consumera
+1. przetestować - zaimportować componenty do innego projektu - consumera
+
+## Global styles and variables
+
+This library includes minimal global styles and CSS variables. To use them, import explicitly: import 'your-lib/global-styles';
 
 # React + TypeScript + Vite
 

@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b ./tsconfig.lib.json && vite build",
+    "watch": "tsc -b ./tsconfig.lib.json --watch & vite build --watch",
     "lint": "eslint .",
     "preview": "vite preview",
     "prepublishOnly": "npm run build"

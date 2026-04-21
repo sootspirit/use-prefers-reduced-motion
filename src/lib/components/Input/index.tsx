@@ -11,5 +11,7 @@ export function Input({ className, variant, ref, ...restProps }: InputProps) {
   const variantClass = `fcl-input--${variant}`;
   const combinedClasses = `fcl-input ${variantClass} ${className || ''}`.trim();
 
+  console.log('Input CLOS!');
+
   return <input {...restProps} ref={ref} className={combinedClasses} />;
 }

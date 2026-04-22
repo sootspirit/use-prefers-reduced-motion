@@ -30,7 +30,8 @@ npm create vite@latest
    - create modules in vite.config.ts - rollupOptions.input
    - change entryFileNames in vite-config to preserve files names
 10. update package.json (see commits)
-11. Local testing with npm link:
+11. remove dist from .gitignore, run `npm run build` and commit it
+12. Local testing with npm link:
 
 ```
 # In your package directory

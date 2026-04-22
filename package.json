@@ -1,6 +1,9 @@
 {
   "name": "react-library-boilerplate",
+  "description": "A minimal Vite-based boilerplate for TypeScript React libraries with components, hooks, and utilities. Styled with Sass and includes a demo inside src/ — no Storybook included.",
   "private": false,
+  "author": "Aleksandra Mętrak",
+  "license": "MIT",
   "version": "0.0.0",
   "type": "module",
   "main": "dist/main.js",

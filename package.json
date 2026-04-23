@@ -1,6 +1,6 @@
 {
-  "name": "react-library-boilerplate",
-  "description": "A minimal Vite-based boilerplate for TypeScript React libraries with components, hooks, and utilities. Styled with Sass and includes a demo inside src/ — no Storybook included.",
+  "name": "@sootspirit/use-prefers-reduced-motion",
+  "description": "React hook for tracking a user’s motion preference, also suitable for server-side rendering environments.",
   "private": false,
   "author": "Aleksandra Mętrak",
   "license": "MIT",
@@ -20,9 +20,6 @@
     "preview": "vite preview",
     "prepublishOnly": "npm run build"
   },
-  "sideEffects": [
-    "**/*.css"
-  ],
   "peerDependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
@@ -41,7 +38,6 @@
     "prettier": "^3.8.3",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "sass-embedded": "^1.99.0",
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.59.0",
     "unplugin-dts": "^1.0.0-beta.6",

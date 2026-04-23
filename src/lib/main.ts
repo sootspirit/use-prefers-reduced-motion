@@ -1,7 +1,3 @@
 // Components
-export * from './components/Button';
-export * from './components/Input';
-export * from './components/Label';
+export * from './usePrefersReducedMotion';
 
-// Hooks
-export * from './hooks/useIsMobile';

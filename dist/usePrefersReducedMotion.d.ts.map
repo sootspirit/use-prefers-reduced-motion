@@ -1,1 +1,1 @@
-{"version":3,"file":"usePrefersReducedMotion.d.ts","sourceRoot":"","sources":["../src/lib/usePrefersReducedMotion.ts"],"names":[],"mappings":"AAGA,wBAAgB,uBAAuB,IAAI,OAAO,CAoBjD"}
+{"version":3,"file":"usePrefersReducedMotion.d.ts","sourceRoot":"","sources":["../src/usePrefersReducedMotion.ts"],"names":[],"mappings":"AAGA,wBAAgB,uBAAuB,IAAI,OAAO,CAoBjD"}

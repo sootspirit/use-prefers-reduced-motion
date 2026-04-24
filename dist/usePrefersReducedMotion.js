@@ -1,5 +1,5 @@
 import { useSyncExternalStore as e } from "react";
-//#region src/lib/usePrefersReducedMotion.ts
+//#region src/usePrefersReducedMotion.ts
 function t() {
 	let t = "(prefers-reduced-motion: reduce)";
 	return e((e) => {

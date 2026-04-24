@@ -1,3 +1,2 @@
-// Components
 export * from './usePrefersReducedMotion';
 

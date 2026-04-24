@@ -1,2 +1,2 @@
-export default function usePrefersReducedMotion(): boolean;
+export declare function usePrefersReducedMotion(): boolean;
 //# sourceMappingURL=usePrefersReducedMotion.d.ts.map

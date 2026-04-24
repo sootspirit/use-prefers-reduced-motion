@@ -8,4 +8,4 @@ function t() {
 	}, () => window.matchMedia(t).matches, () => !1);
 }
 //#endregion
-export { t as default };
+export { t as usePrefersReducedMotion };

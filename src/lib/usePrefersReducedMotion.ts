@@ -1,7 +1,7 @@
 import { useSyncExternalStore } from 'react';
 
 
-export default function usePrefersReducedMotion(): boolean {
+export function usePrefersReducedMotion(): boolean {
 const MEDIA_QUERY_STRING = '(prefers-reduced-motion: reduce)';
 
 const getSnapshot = () => window.matchMedia(MEDIA_QUERY_STRING).matches;
